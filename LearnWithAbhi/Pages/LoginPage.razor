@@ -1,0 +1,34 @@
+﻿@page "/LoginPage"
+@using LearnWithAbhi.Application.Model;
+
+<h3>LoginPage</h3>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="Username">Username:</label>
+        <InputText id="Username" @bind-Value="loginModel.Username" class="form-control" />
+        <ValidationMessage For="() => loginModel.Username" />
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password:</label>
+        <InputText id="Password" @bind-Value="loginModel.Password" class="form-control" />
+       
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+
+@code {
+
+    private LoginModel loginModel = new LoginModel();
+
+    private void HandleLogin()
+    {
+        // Handle user login here (e.g., call an authentication service)
+        // You can access loginModel to get user input
+    }
+}

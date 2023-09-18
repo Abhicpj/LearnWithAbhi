@@ -9,7 +9,8 @@
 <h3>Registration Page</h3>
 
 <EditForm Model="registrationModel" OnValidSubmit="HandleRegistration" class="main-container" >
-   
+        <DataAnnotationsValidator />       @* required fields if want to see message*@
+        @*   <ValidationSummary />  optional fields *@
 
     <div class="form-group">
         <label for="username">Username</label>
