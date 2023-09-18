@@ -1,0 +1,623 @@
+/* /Pages/About.razor.rz.scp.css */
+
+
+.grey-white[b-vfqsfqe5gl] {
+
+	background-color:aqua;
+}
+
+
+.left[b-vfqsfqe5gl] {
+	padding-left: 0;
+	float: left;
+	display: block;
+	background-color: #f5cdcd;
+	
+}
+
+.card-area[b-vfqsfqe5gl] {
+	color: white;
+	
+	padding: 10px;
+	min-height: 450px;
+}
+
+.col-md-5[b-vfqsfqe5gl] {
+	width: 48%;
+}
+
+.item-1[b-vfqsfqe5gl], .item-2[b-vfqsfqe5gl], .item-3[b-vfqsfqe5gl], .item-4[b-vfqsfqe5gl] {
+	padding: 10%;	
+	margin: 5%;
+	min-height: 50%;
+	background-color: cadetblue;
+	
+}
+
+
+	h4[b-vfqsfqe5gl]
+
+{
+	color: black;
+}
+
+
+
+.right[b-vfqsfqe5gl] {
+	padding-right: 0;
+	float: right;
+	display: block;
+	background-color: #f5cdcd;
+}
+/* /Pages/Contact.razor.rz.scp.css */
+
+.container[b-etjf307w1i] {
+    background-color: #deded7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.tiles[b-etjf307w1i] {
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px 5px;
+    border: 2px solid #808080;
+    width: auto ;
+    max-width: 500px;
+    color: white;
+    text-align: center;
+}
+
+
+div[b-etjf307w1i]{
+    margin: 2px;
+}
+
+label[b-etjf307w1i] {
+    display: inline-block;
+    width: 100px;
+    color: #000000;
+}
+input[b-etjf307w1i] {
+    padding: 3px;
+    block-size: auto;
+}
+
+.Note-inp[b-etjf307w1i] {
+    width : 200px;
+}
+/* /Pages/Index.razor.rz.scp.css */
+
+.welcome-msg[b-qgu61o0c6a] {
+    background-color: bisque;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+
+.welcome[b-qgu61o0c6a] {
+    color: blueviolet;
+    padding: 2rem;
+    position: static;
+    z-index: 1;
+}
+
+.timestamp[b-qgu61o0c6a] {
+    text-align: right;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.main-container[b-qgu61o0c6a] {
+/*    background-color: lemonchiffon;
+*/    display: flex;
+    flex-wrap: nowrap;
+    margin: 0.28rem, 0.28rem;
+    padding: 0.128rem;
+    background-color: #83b54b;
+    width: 100%;
+}
+
+.scroll[b-qgu61o0c6a] {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.container-1[b-qgu61o0c6a] {
+    background-color: azure;
+    border: 2px double #000000;
+    min-width: 35%;
+    max-width: 30%;
+    height: auto;
+    margin: 2%;
+    padding: 2%;
+    white-space: normal;
+    /*  position:relative;
+    left:15%;*/
+}
+.content01[b-qgu61o0c6a] {
+    color: darkgreen;
+    font-display: swap;
+    margin-top: 4%;
+    width: auto;
+    max-width: 70%;
+
+   
+}
+
+button[b-qgu61o0c6a] {
+    background-color: darkgreen;
+    top: 4%;
+    left: 40%;
+    width: 6rem;
+    height: 2rem;
+    z-index: 11;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+img[b-qgu61o0c6a] {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+/* /Pages/learning/blog-pages/OpenAI-tools.razor.rz.scp.css */
+
+.main-temp[b-fvqh1czhee] {
+
+	background-color:  burlywood;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.cart1[b-fvqh1czhee] {
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;	
+	padding:0.4rem;
+
+	
+}
+
+.section-01[b-fvqh1czhee], .section-02[b-fvqh1czhee] {
+	background-color: azure;
+	display: flex;
+	flex-flow: wrap;
+	padding: 0.8rem;
+	margin: 0.4rem;
+	width: 100%;
+}
+
+
+.items-1[b-fvqh1czhee], .items-2[b-fvqh1czhee] {
+	background-color: antiquewhite;
+	color: chocolate;
+	width: 25%;
+	margin: 10px;
+	margin-top: 50px;
+	padding: 0.8%;
+	position: relative;
+}
+
+/*.left -image {
+
+	width:40%;
+	position:relative;
+	left:0px;
+}
+
+.right -content {
+	width: 40%;
+	position: relative;
+	right:0px;
+}*/
+
+img[b-fvqh1czhee] {
+	max-width: 50%;
+	height: auto;
+	opacity: 1;
+}
+/* /Pages/learning/Blogs.razor.rz.scp.css */
+main[b-ztt0pa2m8r] {
+	background-color: antiquewhite;
+	min-height: 1000px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+
+
+.card-01[b-ztt0pa2m8r] {
+	background-color: cadetblue;
+	border: 3px dotted #000000;
+	width:  90%;
+	height: auto;
+	margin: 10px;
+	position: relative;
+	
+	/*flex-wrap: wrap;     wrap; wrap/unwrap, direction : row , collumn   flow: row wrap*/
+}
+
+.heading01[b-ztt0pa2m8r] {
+	font-weight: bold;
+	padding-bottom:1rem;
+}
+
+.Expanded[b-ztt0pa2m8r] {
+	display: none;
+	position: relative;
+	overflow: auto;
+}
+
+.card-01:hover .Expanded[b-ztt0pa2m8r] {
+	display: block;
+	
+}
+
+
+a[b-ztt0pa2m8r] {
+	text-decoration: none;
+}
+
+	a:hover[b-ztt0pa2m8r] {
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+/* /Pages/learning/Education.razor.rz.scp.css */
+@page "/Education"
+
+<PageTitle>Education</PageTitle>
+
+
+<h1>Welcome to our Educational Site</h1>
+
+<p>
+    This is a sample home page for our educational site. Feel free to customize it with your own content and design.
+</p>
+
+<h2>Featured Courses</h2>
+
+<div class="course-list">
+    <div class="course-card">
+        <h3>Course 1</h3>
+        <p>Lorem ipsum dolor sit amet[b-jcv9vuebwl], consectetur adipiscing elit.</p>
+        <a href="#">Enroll Now</a>
+    </div>
+
+    <div class="course-card">
+        <h3>Course 2</h3>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#">Enroll Now</a>
+    </div>
+
+    <!-- Add more course cards as needed -->
+</div>
+
+<h2>About Us</h2>
+
+<p>
+    Lorem ipsum dolor sit amet[b-jcv9vuebwl], consectetur adipiscing elit. Nulla luctus nibh auctor[b-jcv9vuebwl], rhoncus mi quis[b-jcv9vuebwl], dictum ipsum.
+    Quisque congue euismod ultricies. Integer fringilla fermentum facilisis. Suspendisse euismod[b-jcv9vuebwl], lectus vel tincidunt
+    interdum[b-jcv9vuebwl], ex nisi efficitur tellus[b-jcv9vuebwl], nec congue elit turpis at risus.
+</p>
+
+<h2>Contact Us</h2>
+
+<p>
+    If you have any questions or inquiries[b-jcv9vuebwl], please feel free to get in touch with us using the contact form or the
+    contact details below:
+</p>
+
+<div class="contact-info">
+    <p>Email: contact@educational-site.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+</div[b-jcv9vuebwl]>
+/* /Pages/learning/MyResume.razor.rz.scp.css */
+.page-container[b-m1bf8je9xt] {
+	color: blue;
+	min-height: 100vh;
+	max-width: 10px;
+	background-color: papayawhip;
+	
+}
+
+.main-content[b-m1bf8je9xt] {
+	background-color: #f7e7e7;
+	padding: 1.1rem;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	max-width: 50rem;
+	
+}
+
+
+hr[b-m1bf8je9xt] {
+	height: 5px;
+	width: 99%;
+	/*  border-top: 5px solid black; */
+	margin-top: 0px;
+	background-color: #000000;
+}
+
+
+
+table[b-m1bf8je9xt], tr[b-m1bf8je9xt], th[b-m1bf8je9xt],td[b-m1bf8je9xt] {
+
+	background-color: antiquewhite;
+	padding: 5px;
+	border: 0.02rem solid #000000;
+	text-align:center;
+	margin-bottom:1.1rem;
+	
+
+}
+th[b-m1bf8je9xt] {
+	background-color: #b3de82;
+}
+
+
+/* use to allign any items like table*/
+.center[b-m1bf8je9xt]
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section[b-m1bf8je9xt] {
+	text-align:center;
+	margin-top: 2rem;
+}
+
+
+.secure-hide[b-m1bf8je9xt] {
+
+	display:none;
+	
+}
+.secure-unhide[b-m1bf8je9xt] {
+	display:block;
+}
+
+
+
+/* /Pages/learning/Objectdesigns.razor.rz.scp.css */
+<h3>Objectdesigns</h3>
+
+
+<div class="container-d">
+
+	<div class="tiles1">
+		<h1> Transformation effects:  </h1>
+		<span>
+
+		</span>
+	</div>
+	<div class="tiles1">
+
+	</div>
+	<div class="tiles1">
+	</div>
+	<div class="tiles1">
+	</div>
+	<div class="tiles1">
+	</div>
+	<div class="tiles1">
+	</div>
+
+
+
+
+</div>
+
+@code[b-vc4l3prfy7] {
+
+}
+/* /Pages/RegistrationPage.razor.rz.scp.css */
+
+.page-body[b-qa4hxqqlmn] {
+    background-color: antiquewhite;
+    width: 80%;
+}
+
+.form-group[b-qa4hxqqlmn]{
+    width: 30%;
+    margin: 1.6rem;
+}
+.btn[b-qa4hxqqlmn] {
+  
+    margin: 1.6rem;
+}
+/* /Pages/Shopping.razor.rz.scp.css */
+
+body[b-z30tf53io4] {
+
+	background-color: #d4c1c1;
+}
+
+
+
+.Page-container[b-z30tf53io4] {
+	margin: auto;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border: 5px solid #ef2525;
+	
+
+}
+
+.Medicine[b-z30tf53io4] {
+	background-color: #808080;
+	box-shadow: 10px 10px;
+	border-radius: 25px;
+	background: #a1c644;
+	padding: 20px;
+	margin: 20px;
+	width: 300px;
+	height: auto;
+	
+	// writing-mode: vertical-rl;
+	display: flex;
+}
+
+	.Medicine:hover[b-z30tf53io4] {
+		//transform: rotate(5deg);
+		transform: scale(1.1, 1.2);
+	}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-smx5d2pyu5] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-smx5d2pyu5] {
+    flex: 1;
+}
+
+.sidebar[b-smx5d2pyu5] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-smx5d2pyu5] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-smx5d2pyu5]  a, .top-row[b-smx5d2pyu5]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-smx5d2pyu5]  a:hover, .top-row[b-smx5d2pyu5]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-smx5d2pyu5]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-smx5d2pyu5] {
+        display: none;
+    }
+
+    .top-row.auth[b-smx5d2pyu5] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-smx5d2pyu5]  a, .top-row[b-smx5d2pyu5]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-smx5d2pyu5] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-smx5d2pyu5] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-smx5d2pyu5] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-smx5d2pyu5]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-smx5d2pyu5], article[b-smx5d2pyu5] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-u6qtexo7ko] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-u6qtexo7ko] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-u6qtexo7ko] {
+    font-size: 1.1rem;
+}
+
+.oi[b-u6qtexo7ko] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-u6qtexo7ko] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-u6qtexo7ko] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-u6qtexo7ko] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-u6qtexo7ko]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-u6qtexo7ko]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-u6qtexo7ko]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-u6qtexo7ko] {
+        display: none;
+    }
+
+    .collapse[b-u6qtexo7ko] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
