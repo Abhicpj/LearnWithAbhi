@@ -1,0 +1,46 @@
+﻿@*@page "/fetchdata"
+@inject httpclient http
+
+<pagetitle>weather forecast</pagetitle>
+
+<h1>weather forecast</h1>
+
+<p>this component demonstrates fetching data from the server.</p>
+
+@if (forecasts == null)
+{
+    <p><em>loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>date</th>
+                <th>temp. (c)</th>
+                <th>temp. (f)</th>
+                <th>summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.date.toshortdatestring()</td>
+                    <td>@forecast.temperaturec</td>
+                    <td>@forecast.temperaturef</td>
+                    <td>@forecast.summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private weatherforecast[]? forecasts;
+
+    protected override async task oninitializedasync()
+    {
+        forecasts = await http.getfromjsonasync<weatherforecast[]>("weatherforecast");
+    }
+}*@

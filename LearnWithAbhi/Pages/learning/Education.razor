@@ -1,0 +1,56 @@
+@page "/Education"
+@inject NavigationManager Navigation
+
+<PageTitle>Education</PageTitle>
+
+
+<h1>Welcome to our Educational Site</h1>
+
+<p>
+    This is a sample home page for our educational site. Feel free to customize it with your own content and design.
+</p>
+
+<h2>Featured Courses</h2>
+
+
+<div class="course-list">
+    <div class="course-card">
+        <h3>Identify thing with their image</h3>
+        <p>Click on below button to go to discover page</p>
+        <a href="Discover">Click Now</a>
+    </div>
+
+    <div class="course-card">
+        <h3>Blog -content</h3>
+        <p>Please click on below link to navigate on Blog page</p>
+        <a href="Blog">Click Now</a>
+        <button @onclick='( () =>  NavigateToMyPage("/Blog"))'>Enter</button>
+    </div>
+
+    <div class="course-card">
+        <h3>Designpattern</h3>
+        <p>Please click on below link to navigate on object design page</p>
+        <a href="Objectdesigns"></a>
+        <button @onclick='( () =>  NavigateToMyPage("/Objectdesigns"))'>Enter</button>
+        
+    </div>
+
+    <div class="course-card">
+        <h3>Blazor Tutorials</h3>
+        <p>Please click on below link to navigate on the blazor tutorial pages</p>
+        <button @onclick= '( () =>  NavigateToMyPage(blzr))' >Enter</button>
+    </div>
+
+    <!-- Add more course cards as needed -->
+</div>
+
+
+
+
+@code{
+    public string blzr = "/blazorTutorial";
+    private void NavigateToMyPage(string pg)
+	{
+		Navigation.NavigateTo(pg);
+	}
+}

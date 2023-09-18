@@ -1,0 +1,48 @@
+﻿@page "/registration"
+
+@using LearnWithAbhi.Application.Model;
+
+
+
+<div class="page-body">
+
+<h3>Registration Page</h3>
+
+<EditForm Model="registrationModel" OnValidSubmit="HandleRegistration" class="main-container" >
+   
+
+    <div class="form-group">
+        <label for="username">Username</label>
+        <InputText id="usernam" class="form-control" @bind-Value="registrationModel.Username" />
+        <ValidationMessage For="() => registrationModel.Username" />
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <InputText id="email" class="form-control" @bind-Value="registrationModel.Email" />
+        <ValidationMessage For="() => registrationModel.Email" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <InputText id="password" type="password" class="form-control" @bind-Value="registrationModel.Password" />
+        <ValidationMessage For="() => registrationModel.Password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</EditForm>
+
+</div>
+
+@code {
+    private RegistrationModel registrationModel = new RegistrationModel();
+
+    private void HandleRegistration()
+    {
+        // Implement registration logic here
+        // You can use registrationModel to access the user's input
+        // For example, you can send this data to a backend API for registration
+    }
+
+   
+}

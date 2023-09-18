@@ -1,0 +1,105 @@
+﻿@page "/"
+
+@*@page "/{user}"*@
+
+
+@using System.Timers;
+
+<body class="page-body">
+
+
+<PageTitle>Home - Entry point</PageTitle>
+
+
+
+<div class="welcome-msg">
+    <h1 class="welcome">Hi! @user, Welcome to the site....</h1>
+
+    <div class="timestamp">
+    <h5>Current Time:</h5>
+    <p>@currentTime</p>
+    </div>
+
+</div>
+
+<main class="main-container scroll" >
+ 
+    <div class="container-1 educ">
+        <h2>Education</h2>
+            <img src="/images/Education-1280x720.jpg" />
+            <p class="content01">
+                Education is the process of acquiring knowledge, skills, values, and habits through learning, teaching, or research. So Start learning .....
+            </p>
+            <button class="btn1"> Enter </button>
+    </div>
+
+     <div class="container-1 bl">
+        <h2>Blogs </h2>
+            <img src="/images/bloging-1.jpg" />
+            <p class="content01">
+               Let's share information, opinions, and experiences on the internet. .....
+            </p>
+            <button class="btn1"> Enter </button>
+    </div>
+        
+        <div class="container-1">
+            <h2>Generative AI </h2>
+            <p class="content01">
+                <img src="/images/GenAI2-scaled.jpg" />
+                Let's learn about artificial intelligence capable of generating text, images, or other media, using generative models.. .....
+            </p>
+            <button class="btn1"> Enter </button>
+        </div>
+
+        <div class="container-1">
+            <h2>Webtool</h2>
+            <p class="content01">
+                Webtools is a free application suite provided by Web Services that useful tools on the internet to make your daily life easier.. .....
+            </p>
+            <button class="btn1"> Enter </button>
+        </div>
+
+
+</main>
+
+
+@*<SurveyPrompt Title="How is Blazor working for you?" />*@
+
+
+</body>
+
+@code{
+    //passing values of user from page directive
+    [Parameter]
+    public string? user  { get; set; }
+
+
+    private string currentTime = string.Empty; //= DateTime.Now.ToString("dd-MMM-yyyy HH:mm:ss");
+
+    private void UpdateClock()
+    {
+        currentTime = DateTime.Now.ToString("dd-MMM-yyyy HH:mm:ss");
+        StateHasChanged(); // Update the UI
+    }
+
+    protected override void OnInitialized()
+    {
+
+        
+        var timer = new Timer(1000);                         // 1. create a timer having interval of 1 sec
+        timer.Elapsed += (sender, e) => UpdateClock();      // 2.	Setup the timer to call your event handler     
+        timer.Start();                                     // 3.Call the Start() method to start the timer.
+
+
+        //assiging default value to user 
+        //if user input is not null then it's value got assign and if it is null then Abhi will be assign to user
+        user = user ?? "Abhi";
+
+
+
+
+    }
+   
+
+
+}

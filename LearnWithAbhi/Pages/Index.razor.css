@@ -1,0 +1,79 @@
+﻿
+.welcome-msg {
+    background-color: bisque;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+
+.welcome {
+    color: blueviolet;
+    padding: 2rem;
+    position: static;
+    z-index: 1;
+}
+
+.timestamp {
+    text-align: right;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.main-container {
+/*    background-color: lemonchiffon;
+*/    display: flex;
+    flex-wrap: nowrap;
+    margin: 0.28rem, 0.28rem;
+    padding: 0.128rem;
+    background-color: #83b54b;
+    width: 100%;
+}
+
+.scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.container-1 {
+    background-color: azure;
+    border: 2px double #000000;
+    min-width: 35%;
+    max-width: 30%;
+    height: auto;
+    margin: 2%;
+    padding: 2%;
+    white-space: normal;
+    /*  position:relative;
+    left:15%;*/
+}
+.content01 {
+    color: darkgreen;
+    font-display: swap;
+    margin-top: 4%;
+    width: auto;
+    max-width: 70%;
+
+   
+}
+
+button {
+    background-color: darkgreen;
+    top: 4%;
+    left: 40%;
+    width: 6rem;
+    height: 2rem;
+    z-index: 11;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+}

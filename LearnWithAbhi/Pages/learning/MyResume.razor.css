@@ -1,0 +1,68 @@
+﻿.page-container {
+	color: blue;
+	min-height: 100vh;
+	max-width: 10px;
+	background-color: papayawhip;
+	
+}
+
+.main-content {
+	background-color: #f7e7e7;
+	padding: 1.1rem;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	max-width: 50rem;
+	
+}
+
+
+hr {
+	height: 5px;
+	width: 99%;
+	/*  border-top: 5px solid black; */
+	margin-top: 0px;
+	background-color: #000000;
+}
+
+
+
+table, tr, th,td {
+
+	background-color: antiquewhite;
+	padding: 5px;
+	border: 0.02rem solid #000000;
+	text-align:center;
+	margin-bottom:1.1rem;
+	
+
+}
+th {
+	background-color: #b3de82;
+}
+
+
+/* use to allign any items like table*/
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section {
+	text-align:center;
+	margin-top: 2rem;
+}
+
+
+.secure-hide {
+
+	display:none;
+	
+}
+.secure-unhide {
+	display:block;
+}
+
+
+

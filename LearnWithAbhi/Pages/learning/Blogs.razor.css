@@ -1,0 +1,48 @@
+main {
+	background-color: antiquewhite;
+	min-height: 1000px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+
+
+.card-01 {
+	background-color: cadetblue;
+	border: 3px dotted #000000;
+	width:  90%;
+	height: auto;
+	margin: 10px;
+	position: relative;
+	
+	/*flex-wrap: wrap;     wrap; wrap/unwrap, direction : row , collumn   flow: row wrap*/
+}
+
+.heading01 {
+	font-weight: bold;
+	padding-bottom:1rem;
+}
+
+.Expanded {
+	display: none;
+	position: relative;
+	overflow: auto;
+}
+
+.card-01:hover .Expanded {
+	display: block;
+	
+}
+
+
+a {
+	text-decoration: none;
+}
+
+	a:hover {
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
