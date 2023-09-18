@@ -424,6 +424,20 @@ th[b-m1bf8je9xt] {
 @code[b-vc4l3prfy7] {
 
 }
+/* /Pages/LoginPage.razor.rz.scp.css */
+.page-body[b-bcmv3aqtc4] {
+	background-color: antiquewhite;
+	width: 80%;
+}
+
+.form-group[b-bcmv3aqtc4] {
+	width: 30%;
+	margin: 1.6rem;
+}
+
+.btn[b-bcmv3aqtc4] {
+	margin: 1.6rem;
+}
 /* /Pages/RegistrationPage.razor.rz.scp.css */
 
 .page-body[b-qa4hxqqlmn] {
