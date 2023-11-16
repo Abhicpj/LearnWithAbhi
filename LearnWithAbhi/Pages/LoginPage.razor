@@ -1,7 +1,15 @@
 ﻿@page "/LoginPage"
 @using LearnWithAbhi.Application.Model;
+@inject NavigationManager nvmg;
 
 <h3>LoginPage</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">
+        @errorMessage
+    </div>
+}
 
 <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
     <DataAnnotationsValidator />
@@ -25,10 +33,28 @@
 @code {
 
     private LoginModel loginModel = new LoginModel();
+    private string errorMessage;
 
     private void HandleLogin()
     {
         // Handle user login here (e.g., call an authentication service)
         // You can access loginModel to get user input
+        if (IsValidUser(loginModel.Username, loginModel.Password))
+            nvmg.NavigateTo("/");
+
+        else
+
+            errorMessage = "Invalid username or password.";
+
+    }
+
+    private bool IsValidUser(string username, string password)
+    {
+        // Implement your user authentication logic here
+        // Check the username and password against your data store
+        // Return true if the credentials are valid, false otherwise
+        // For a real application, you should hash and salt passwords for security
+        // For simplicity, this example assumes hardcoded credentials
+        return username == "Abhi" && password == "123456";
     }
 }

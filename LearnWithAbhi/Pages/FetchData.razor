@@ -1,5 +1,8 @@
-﻿@*@page "/fetchdata"
-@inject httpclient http
+﻿@page "/fetchdata"
+@inject HttpClient http
+
+@using LearnWithAbhi.Application.Model;
+
 
 <pagetitle>weather forecast</pagetitle>
 
@@ -26,10 +29,10 @@ else
             @foreach (var forecast in forecasts)
             {
                 <tr>
-                    <td>@forecast.date.toshortdatestring()</td>
-                    <td>@forecast.temperaturec</td>
-                    <td>@forecast.temperaturef</td>
-                    <td>@forecast.summary</td>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
                 </tr>
             }
         </tbody>
@@ -37,10 +40,11 @@ else
 }
 
 @code {
-    private weatherforecast[]? forecasts;
+    private WeatherForecast[]? forecasts;
 
-    protected override async task oninitializedasync()
+    protected  async Task oninitializedasync()
     {
-        forecasts = await http.getfromjsonasync<weatherforecast[]>("weatherforecast");
+
+        forecasts = await http.GetFromJsonAsync<WeatherForecast[]>("weatherforecast");
     }
-}*@
+}
