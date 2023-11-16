@@ -21,5 +21,7 @@ namespace LearnWithAbhi.Application.Model
             [MinLength(6, ErrorMessage = "Password must be at least 6 characters.")]
             public string Password { get; set; } = string.Empty;
 
+        [Compare("Password", ErrorMessage = "Password is not matching")]
+        public string ConfirmPassword { get; set; } = string.Empty;
     }
 }
