@@ -88,6 +88,55 @@ input[b-etjf307w1i] {
 .Note-inp[b-etjf307w1i] {
     width : 200px;
 }
+/* /Pages/Education.razor.rz.scp.css */
+@page "/Education"
+
+<PageTitle>Education</PageTitle>
+
+
+<h1>Welcome to our Educational Site</h1>
+
+<p>
+    This is a sample home page for our educational site. Feel free to customize it with your own content and design.
+</p>
+
+<h2>Featured Courses</h2>
+
+<div class="course-list">
+    <div class="course-card">
+        <h3>Course 1</h3>
+        <p>Lorem ipsum dolor sit amet[b-7g4py6d7gi], consectetur adipiscing elit.</p>
+        <a href="#">Enroll Now</a>
+    </div>
+
+    <div class="course-card">
+        <h3>Course 2</h3>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#">Enroll Now</a>
+    </div>
+
+    <!-- Add more course cards as needed -->
+</div>
+
+<h2>About Us</h2>
+
+<p>
+    Lorem ipsum dolor sit amet[b-7g4py6d7gi], consectetur adipiscing elit. Nulla luctus nibh auctor[b-7g4py6d7gi], rhoncus mi quis[b-7g4py6d7gi], dictum ipsum.
+    Quisque congue euismod ultricies. Integer fringilla fermentum facilisis. Suspendisse euismod[b-7g4py6d7gi], lectus vel tincidunt
+    interdum[b-7g4py6d7gi], ex nisi efficitur tellus[b-7g4py6d7gi], nec congue elit turpis at risus.
+</p>
+
+<h2>Contact Us</h2>
+
+<p>
+    If you have any questions or inquiries[b-7g4py6d7gi], please feel free to get in touch with us using the contact form or the
+    contact details below:
+</p>
+
+<div class="contact-info">
+    <p>Email: contact@educational-site.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+</div[b-7g4py6d7gi]>
 /* /Pages/Index.razor.rz.scp.css */
 
 .welcome-msg[b-qgu61o0c6a] {
@@ -274,55 +323,6 @@ a[b-ztt0pa2m8r] {
 		cursor: pointer;
 	}
 
-/* /Pages/learning/Education.razor.rz.scp.css */
-@page "/Education"
-
-<PageTitle>Education</PageTitle>
-
-
-<h1>Welcome to our Educational Site</h1>
-
-<p>
-    This is a sample home page for our educational site. Feel free to customize it with your own content and design.
-</p>
-
-<h2>Featured Courses</h2>
-
-<div class="course-list">
-    <div class="course-card">
-        <h3>Course 1</h3>
-        <p>Lorem ipsum dolor sit amet[b-jcv9vuebwl], consectetur adipiscing elit.</p>
-        <a href="#">Enroll Now</a>
-    </div>
-
-    <div class="course-card">
-        <h3>Course 2</h3>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a href="#">Enroll Now</a>
-    </div>
-
-    <!-- Add more course cards as needed -->
-</div>
-
-<h2>About Us</h2>
-
-<p>
-    Lorem ipsum dolor sit amet[b-jcv9vuebwl], consectetur adipiscing elit. Nulla luctus nibh auctor[b-jcv9vuebwl], rhoncus mi quis[b-jcv9vuebwl], dictum ipsum.
-    Quisque congue euismod ultricies. Integer fringilla fermentum facilisis. Suspendisse euismod[b-jcv9vuebwl], lectus vel tincidunt
-    interdum[b-jcv9vuebwl], ex nisi efficitur tellus[b-jcv9vuebwl], nec congue elit turpis at risus.
-</p>
-
-<h2>Contact Us</h2>
-
-<p>
-    If you have any questions or inquiries[b-jcv9vuebwl], please feel free to get in touch with us using the contact form or the
-    contact details below:
-</p>
-
-<div class="contact-info">
-    <p>Email: contact@educational-site.com</p>
-    <p>Phone: +1 (123) 456-7890</p>
-</div[b-jcv9vuebwl]>
 /* /Pages/learning/MyResume.razor.rz.scp.css */
 .page-container[b-m1bf8je9xt] {
 	color: blue;
@@ -494,7 +494,7 @@ body[b-z30tf53io4] {
 .page[b-smx5d2pyu5] {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 main[b-smx5d2pyu5] {
@@ -502,7 +502,8 @@ main[b-smx5d2pyu5] {
 }
 
 .sidebar[b-smx5d2pyu5] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, rgb(33, 103, 05) 0%, #3a0647 70%);
+    
 }
 
 .top-row[b-smx5d2pyu5] {
@@ -574,7 +575,7 @@ main[b-smx5d2pyu5] {
 }
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-u6qtexo7ko] {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #ff0000;
 }
 
 .top-row[b-u6qtexo7ko] {
@@ -587,7 +588,7 @@ main[b-smx5d2pyu5] {
 }
 
 .oi[b-u6qtexo7ko] {
-    width: 2rem;
+    width: 5rem;
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
